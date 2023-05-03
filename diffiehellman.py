@@ -1,7 +1,7 @@
 # Diffie-Hellman Example
 # Alex Danielle Basden
 # Calculate secret key
-print("Enter a shared prime for two people 'p' and shared base 'g': ")
+print("Enter a shared prime for two people 'p' and an integer for shared base 'g': ")
 sharedPrime = int(input("Enter the shared prime number for p: "))
 sharedBase = int(input("Enter the shared base ('g'): "))
 
@@ -21,7 +21,7 @@ def prime(i):
 
 checkP = prime(sharedPrime)
 while (checkP == False):
-    sharedPrime = int(input("Try again and enter a prime number for p: "))
+    sharedPrime = int(input("Try again and enter a prime number  for p: "))
     checkP = prime(sharedPrime)
 
 print("Enter user A secret and user B secret")
