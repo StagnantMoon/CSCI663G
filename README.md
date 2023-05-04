@@ -16,5 +16,4 @@ Install:
 pip install pycryptodome
 pip install cryptography
 
-pydes.py is used via MIT License
-I did not right or use it
+
