@@ -19,6 +19,7 @@ def prime(i):
                 return False
     return True
 
+
 checkP = prime(sharedPrime)
 while (checkP == False):
     sharedPrime = int(input("Try again and enter a prime number  for p: "))

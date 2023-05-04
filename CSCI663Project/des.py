@@ -55,7 +55,7 @@ if __name__ == "__main__":
     root.title("Decryption/Encryption")
 
     # Create Welcome to SpongeBob Mocking Text Generator label
-    headlabel = Label(root, text='DES Encryption',
+    headlabel = Label(root, text='DES Encryption and Diffie Hellman',
                       fg='black', bg="blue")
 
     # Create a "Input Text " label
